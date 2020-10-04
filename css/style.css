@@ -1,0 +1,156 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+.topbar ul{
+	float: right;
+	padding: 10px;
+	margin-right: 100px;
+	margin-top: 11px;
+}
+.topbar ul li{
+	display: inline-block;
+}
+.topbar ul li a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 13px;
+	padding: 7px;
+}
+.topbar ul li a:hover{
+	text-decoration: underline;
+}
+img{
+	margin-top: 156px;
+	margin-left: 547px;
+}
+.search{
+	width: 582px;
+	height: 43px;
+	border: 1px solid lightgrey;
+	border-radius: 25px;
+	margin-top: 23px;
+	margin-left: 391px;
+}
+.search input:focus{
+	outline: none;
+}
+.search:hover{
+	box-shadow: 0px 0px 5px lightgrey;
+}
+.search input{
+	margin: 3px 40px;
+	width: 487px;
+	height: 34px;
+	border: none;
+}
+.button{
+	margin-top: 30px;
+	margin-left: 542px;
+}
+.button button:nth-child(1){
+	height: 36px;
+	background: #f2f2f2;
+	border: none;
+	padding: 0px 18px;
+	color: #5f6368;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.button button:nth-child(2){
+	height: 36px;
+	background: #f2f2f2;
+	border: none;
+	padding: 0px 18px;
+	margin: 0px 6px;
+	border-radius: 4px;
+	color: #5f6368;
+	font-size: 14px;
+}
+.button button:nth-child(1):hover{
+	box-shadow: 0px 0px 2px darkgrey;
+	cursor: pointer;
+}
+.button button:nth-child(2):hover{
+	box-shadow: 0px 0px 2px darkgrey;
+	cursor: pointer;
+}
+p{
+	margin-left: 615px;
+	margin-top: 28px;
+	font-size: 13px;
+}
+p a{
+	text-decoration: none;
+}
+.bd{
+	width: 99.85%;
+	height: 40px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+	margin-top: 97px;
+}
+.bd p{
+	font-size: 14px;
+	float: left;
+	margin-left: 27px;
+	margin-top: 11px;
+	color: #5f6368;
+	font-size: 15px;
+	text-align: left;
+}
+.ftr{
+	width: 99.85%;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+}
+.ftr ul:nth-child(1){
+	float: left;
+	padding: 10px;
+	margin-left: -96px;
+	margin-top: 2px;
+}
+.ftr ul:nth-child(1) li{
+	display: inline-block;
+}
+.ftr ul:nth-child(1) li a{
+	text-decoration: none;
+	color: #5f6368;
+	font-size: 15px;
+	padding: 7px;
+}
+.ftr ul:nth-child(1) li a:hover{
+	text-decoration: underline;
+}
+.ftr ul:nth-child(2){
+	float: right;
+	padding: 10px;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+.ftr ul:nth-child(2) li{
+	display: inline-block;
+}
+.ftr ul:nth-child(2) li a{
+	text-decoration: none;
+	color: #5f6368;
+	font-size: 15px;
+	padding: 7px;
+}
+.ftr ul:nth-child(2) li a:hover{
+	text-decoration: underline;
+}
+.footr{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	
+}
+.ftr:after{
+	content: '';
+	display: block;
+	clear: both;
+}
